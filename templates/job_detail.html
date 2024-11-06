@@ -1,0 +1,31 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}"></link>
+</head>
+<body>
+<div class="container">
+    <div class="subcont">
+        <h2>ID: {{ job_detail.id }}</h2>
+        <h2>Title: {{ job_detail.title }}</h2>
+        <h2>Description: {{ job_detail.description }}</h2>
+        {% if job_detail.image or job_detail.video %}
+        <img src="{{ job_detail.image.url }}" alt="">
+        <video src="{{ job_detail.video.url }}"></video>
+        {% endif %}
+        <h2>Category: {{ job_detail.category }}</h2>
+        <h2>user: {{ job_detail.user.username }}</h2>
+        <h2>Location: {{ job_detail.location }}</h2>
+        <h2>is_active: {{ job_detail.is_active }}</h2>
+        <h2>created_at: {{ job_detail.created_at }}</h2>
+    </div>
+</div>
+
+</body>
+</html>

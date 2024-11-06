@@ -1,0 +1,25 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}"></link>
+</head>
+<body>
+<div class="container">
+    <div class="subcont">
+        <h2>ID: {{ user_detail.id }}</h2>
+        <h2>Name: {{ user_detail.name }}</h2>
+        <h2>Surname: {{ user_detail.surname }}</h2>
+        <h2>Email: {{ user_detail.email }}</h2>
+        <h2>Phone Number: {{ user_detail.phone_number }}</h2>
+        <h2>Username: {{ user_detail.username }}</h2>
+    </div>
+</div>
+
+</body>
+</html>
