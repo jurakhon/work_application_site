@@ -1,0 +1,27 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}"></link>
+</head>
+<body>
+<div class="container">
+    {% for job in job_list %}
+    <div class="subcont">
+        <h2>ID: {{ job.id }}</h2>
+        <h2>Title: {{ job.title }}</h2>
+        <h2>Description: {{ job.description }}</h2>
+        <h2>Category: {{ job.category }}</h2>
+        <h2>User: {{ job.user }}</h2>
+        <h2>Username: {{ user.username }}</h2>
+    </div>
+    {% endfor %}
+</div>
+
+</body>
+</html>

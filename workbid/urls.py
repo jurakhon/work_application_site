@@ -19,9 +19,9 @@ urlpatterns = [
     path('jobupdate/<int:pk>', JobUpdateView.as_view(), name='job_update'),
     path('jobdelete/<int:pk>', JobDeleteView.as_view(), name='job_delete'),
     path('bidderlist/', BidderListView.as_view(), name='bidder_list'),
+    path('bidderdetail/<int:pk>', BidderDetailView.as_view(), name='bidder_detail'),
     path('biddercreate/', BidderCreateView.as_view(), name='bidder_create'),
     path('bidderupdate/<int:pk>', BidderUpdateView.as_view(), name='bidder_update'),
     path('bidderdelete/<int:pk>', BidderDeleteView.as_view(), name='bidder_delete'),
-    path('bidderdetail/<int:pk>', BidderDetailView.as_view(), name='bidder_detail'),
 
 ]
