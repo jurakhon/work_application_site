@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c3a3deb-c166-4527-877a-4a17a58a4d4e" name="Changes" comment="" />
+    <list default="true" id="4c3a3deb-c166-4527-877a-4a17a58a4d4e" name="Changes" comment="req">
+      <change beforePath="$PROJECT_DIR$/templates/bidder_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bidder_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/job_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/job_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbid/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/workbid/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbid/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/workbid/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbid/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/workbid/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +19,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "jurakhon"
+  }
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/jurakhon/work_application_site.git",
@@ -86,11 +98,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730816966462</updated>
-      <workItem from="1730817007800" duration="8924000" />
+      <workItem from="1730817007800" duration="10016000" />
     </task>
+    <task id="LOCAL-00001" summary="req">
+      <option name="closed" value="true" />
+      <created>1730895589956</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730895589956</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="req" />
+    <option name="LAST_COMMIT_MESSAGE" value="req" />
   </component>
 </project>
